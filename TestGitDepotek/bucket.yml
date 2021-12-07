@@ -1,6 +1,0 @@
-flows:
-  0264d483-1c4c-4728-92f1-5f8d07eed5bd: {ver: 2, file: Git_Test.snapshot, comments: added
-      GenerateFlowFile processor, author: anonymous, created: 1638752566476, flowName: Git
-      Test, flowDesc: ''}
-layoutVer: 1
-bucketId: bb17a14d-92e7-425d-9605-ba59e27ef1ff
