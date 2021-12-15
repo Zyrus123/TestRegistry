@@ -1,0 +1,6 @@
+flows:
+  e4ed0279-b966-443e-99bb-8a00127fa96f: {ver: 1, file: GithubTestFlow.snapshot, comments: Test
+      if flow will save in github repositry, author: anonymous, created: 1639549022752,
+    flowName: GithubTestFlow, flowDesc: ''}
+layoutVer: 1
+bucketId: d02d9dc5-1a94-4ab2-9c20-a720908a56c7
