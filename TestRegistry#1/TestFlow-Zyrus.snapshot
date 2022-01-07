@@ -15,13 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "4795d2d9-8c1c-3cef-bc4d-6288ce7df22d",
+            "groupId" : "8617c881-ce03-377a-8dc2-1ddd1bddbcd1",
             "id" : "2a479d4c-939c-3553-b995-7489208308cb",
             "name" : "LogAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "4795d2d9-8c1c-3cef-bc4d-6288ce7df22d",
+          "groupIdentifier" : "8617c881-ce03-377a-8dc2-1ddd1bddbcd1",
           "identifier" : "0736a10e-756c-35dd-8bac-203d7ffd3040",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -32,37 +32,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "4795d2d9-8c1c-3cef-bc4d-6288ce7df22d",
-            "id" : "52783339-c6b4-34f2-a68e-120ac91a7ea8",
-            "name" : "GenerateFlowFile",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "4795d2d9-8c1c-3cef-bc4d-6288ce7df22d",
-            "id" : "716fcc57-5d70-366d-b9f3-72971b022bd5",
-            "name" : "LogAttribute",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "4795d2d9-8c1c-3cef-bc4d-6288ce7df22d",
-          "identifier" : "47f3a084-dda7-36bb-9ff9-574a6b180a15",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "4795d2d9-8c1c-3cef-bc4d-6288ce7df22d",
+            "groupId" : "8617c881-ce03-377a-8dc2-1ddd1bddbcd1",
             "id" : "52783339-c6b4-34f2-a68e-120ac91a7ea8",
             "name" : "GenerateFlowFile",
             "type" : "PROCESSOR"
@@ -76,13 +46,13 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "4795d2d9-8c1c-3cef-bc4d-6288ce7df22d",
+        "identifier" : "8617c881-ce03-377a-8dc2-1ddd1bddbcd1",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "TestGroup1",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 336.0,
+          "x" : 752.0,
           "y" : 48.0
         },
         "processGroups" : [ ],
@@ -98,96 +68,13 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "4795d2d9-8c1c-3cef-bc4d-6288ce7df22d",
+          "groupIdentifier" : "8617c881-ce03-377a-8dc2-1ddd1bddbcd1",
           "identifier" : "2a479d4c-939c-3553-b995-7489208308cb",
           "name" : "LogAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
             "x" : 296.0,
             "y" : 208.0
-          },
-          "properties" : {
-            "character-set" : "UTF-8",
-            "Log Level" : "info",
-            "attributes-to-log-regex" : ".*",
-            "Log Payload" : "false"
-          },
-          "propertyDescriptors" : {
-            "Log prefix" : {
-              "displayName" : "Log prefix",
-              "identifiesControllerService" : false,
-              "name" : "Log prefix",
-              "sensitive" : false
-            },
-            "character-set" : {
-              "displayName" : "Character Set",
-              "identifiesControllerService" : false,
-              "name" : "character-set",
-              "sensitive" : false
-            },
-            "Log Level" : {
-              "displayName" : "Log Level",
-              "identifiesControllerService" : false,
-              "name" : "Log Level",
-              "sensitive" : false
-            },
-            "attributes-to-ignore-regex" : {
-              "displayName" : "Attributes to Ignore by Regular Expression",
-              "identifiesControllerService" : false,
-              "name" : "attributes-to-ignore-regex",
-              "sensitive" : false
-            },
-            "Attributes to Ignore" : {
-              "displayName" : "Attributes to Ignore",
-              "identifiesControllerService" : false,
-              "name" : "Attributes to Ignore",
-              "sensitive" : false
-            },
-            "Attributes to Log" : {
-              "displayName" : "Attributes to Log",
-              "identifiesControllerService" : false,
-              "name" : "Attributes to Log",
-              "sensitive" : false
-            },
-            "attributes-to-log-regex" : {
-              "displayName" : "Attributes to Log by Regular Expression",
-              "identifiesControllerService" : false,
-              "name" : "attributes-to-log-regex",
-              "sensitive" : false
-            },
-            "Log Payload" : {
-              "displayName" : "Log Payload",
-              "identifiesControllerService" : false,
-              "name" : "Log Payload",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.standard.LogAttribute",
-          "yieldDuration" : "1 sec"
-        }, {
-          "autoTerminatedRelationships" : [ "success" ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-standard-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.15.0"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "4795d2d9-8c1c-3cef-bc4d-6288ce7df22d",
-          "identifier" : "716fcc57-5d70-366d-b9f3-72971b022bd5",
-          "name" : "LogAttribute",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 712.0,
-            "y" : 32.0
           },
           "properties" : {
             "character-set" : "UTF-8",
@@ -264,7 +151,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "4795d2d9-8c1c-3cef-bc4d-6288ce7df22d",
+          "groupIdentifier" : "8617c881-ce03-377a-8dc2-1ddd1bddbcd1",
           "identifier" : "52783339-c6b4-34f2-a68e-120ac91a7ea8",
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
