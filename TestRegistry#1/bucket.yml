@@ -1,5 +1,0 @@
-flows:
-  fd6ee9e2-daa0-4fc9-b9c3-533345389a2e: {ver: 4, file: s3Flow.snapshot, comments: '',
-    author: anonymous, created: 1641524875436, flowName: s3Flow, flowDesc: ''}
-layoutVer: 1
-bucketId: e22a5e83-5311-443c-88e3-60e883cc4211
