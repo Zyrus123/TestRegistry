@@ -2,8 +2,5 @@ flows:
   f9b98d35-c089-4f9e-ae1c-d3f2305b7e8e: {ver: 1, file: TestFlowChristian.snapshot,
     comments: '', author: anonymous, created: 1641518664836, flowName: TestFlowChristian,
     flowDesc: ''}
-  80d928d0-7887-4668-a64f-4c1778f9e7e1: {ver: 3, file: TestFlow-Zyrus.snapshot, comments: 'Removed
-      second LogAttribute ', author: anonymous, created: 1641518854969, flowName: TestFlow-Zyrus,
-    flowDesc: ''}
 layoutVer: 1
 bucketId: e22a5e83-5311-443c-88e3-60e883cc4211
