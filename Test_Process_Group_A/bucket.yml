@@ -1,13 +1,6 @@
 flows:
-  4b469493-7b37-49f3-bc16-6f6cbbf88116:
-    ver: 2
-    file: Test_Process_Group_A_Flow.snapshot
-    comments: |-
-      added GenerateFlowFile, LogAttribute
-      connected via success
-    author: anonymous
-    created: 1648172847022
-    flowName: Test Process Group A Flow
-    flowDesc: tpgAflow
+  4b469493-7b37-49f3-bc16-6f6cbbf88116: {ver: 3, file: Test_Process_Group_A_Flow.snapshot,
+    comments: Connected another LogAttribute success, author: anonymous, created: 1648173586625,
+    flowName: Test Process Group A Flow, flowDesc: tpgAflow}
 layoutVer: 1
 bucketId: f0054c07-f608-4c5b-b3cb-2c3e7ddc01fc
