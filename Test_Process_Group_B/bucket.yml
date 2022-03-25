@@ -1,6 +1,6 @@
 flows:
-  4c708394-6a44-4fa0-84c2-5897d1aadbcd: {ver: 1, file: Test_Process_Group_B_Flow.snapshot,
-    comments: added test process group B, author: anonymous, created: 1648173143516,
+  4c708394-6a44-4fa0-84c2-5897d1aadbcd: {ver: 2, file: Test_Process_Group_B_Flow.snapshot,
+    comments: Added TGPB1 flow nested, author: anonymous, created: 1648173607450,
     flowName: Test Process Group B Flow, flowDesc: tpgBflow}
   5c572421-a8c8-42d4-a3fc-a1c316445933: {ver: 1, file: TGP_B_-_1.snapshot, comments: added
       nested process group, author: anonymous, created: 1648173341145, flowName: TGP

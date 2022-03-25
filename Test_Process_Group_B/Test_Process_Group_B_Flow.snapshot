@@ -25,7 +25,38 @@
           "x" : 880.0,
           "y" : 176.0
         },
-        "processGroups" : [ ],
+        "processGroups" : [ {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "defaultBackPressureDataSizeThreshold" : "1 GB",
+          "defaultBackPressureObjectThreshold" : 10000,
+          "defaultFlowFileExpiration" : "0 sec",
+          "flowFileConcurrency" : "UNBOUNDED",
+          "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+          "funnels" : [ ],
+          "groupIdentifier" : "9e1fa069-dfce-3f6e-b791-6bb34b9ad1fe",
+          "identifier" : "797a854a-1137-3759-945f-832501bcfa2c",
+          "inputPorts" : [ ],
+          "labels" : [ ],
+          "name" : "TGP B - 1",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 528.0,
+            "y" : 152.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { },
+          "versionedFlowCoordinates" : {
+            "bucketId" : "0c225fa8-cc05-4611-a5af-e9748cceea09",
+            "flowId" : "5c572421-a8c8-42d4-a3fc-a1c316445933",
+            "registryUrl" : "http://localhost:18080",
+            "version" : 1
+          }
+        } ],
         "processors" : [ ],
         "remoteProcessGroups" : [ ],
         "variables" : { }
